@@ -1,3 +1,5 @@
 
 control = document.getElementById('currentdate');
-control.innerText = Date();
+var d = new Date();
+control.innerText = d.toUTCString()
+
